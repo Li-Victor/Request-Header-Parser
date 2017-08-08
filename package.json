@@ -1,23 +1,26 @@
 {
   "name": "request-header-parser-microservice",
-  "version": "1.0.0",
-  "description": "Gets the IP address, language, and operating system for any request",
+  "version": "0.0.1",
+  "description": "Request Header Parser Microservice project From FreeCodeCamp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "body-parser": "^1.17.2"
+  },
+  "engines": {
+    "node": "8.x"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Li-Victor/Request-Header-Parser-Microservice.git"
+    "url": "git+https://github.com/Li-Victor/Timestamp-Microservice.git"
   },
-  "author": "Victor Li",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Li-Victor/Request-Header-Parser-Microservice/issues"
-  },
-  "homepage": "https://github.com/Li-Victor/Request-Header-Parser-Microservice#readme",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4"
-  }
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
