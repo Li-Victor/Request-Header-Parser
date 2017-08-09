@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.enable('trust proxy');
 
-app.get('/', function(req, res, next) {
+app.all('/', function(req, res, next) {
 	var regex = new RegExp(/\(([^)]+)\)/);
 	return res.status(200).send({
 		ipaddress: req.ip,
